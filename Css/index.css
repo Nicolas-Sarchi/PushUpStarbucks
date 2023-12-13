@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar-nav a {
+    color: #087f5b;
+    margin: 0 2rem 0 2rem;
+}
+
+section {
+    height: 100%;
+}
+
+.text h1 {
+    font-size:7em;
+    color: #087f5b;
+
+}
+
+.text p{
+    font-size:1.2em;
+    margin-top: 5%;
+}
+.sec {
+    border-radius: 8%;
+    display: flex;
+    background-color: RGBa(178, 242, 187, .4);
+    /* opacity:; */
+    
+}
+
+.sec .imagen {
+    margin: auto;
+}
+
+.social-media{
+    margin-top: 20%;
+    display: grid;
+    height: 55%;
+    /* background-color: RGBa(178, 242, 187, .8); */
+    /* border: #087f5b 1px solid; */
+    /* width: 10%; */
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-img a :hover{
+   
+    /* margin: auto; */
+    /* scale: 1.2 ; */
+    transform: scale(1.1) ;
+}
+
+
+@media(max-width: 610px){
+    main{
+     display: grid;
+     grid-template-columns: 1fr;
+    }
+
+    .sec{
+        width: 90%;
+    }
+    .grande{
+        max-width: 8em;
+    } 
+
+    .social-media img {
+        width: 40%;
+        margin-left: 25% ;
+    }
+
+    .foot-img img{
+        width: 40%;
+
+    }
+ }
+
+
+
+
+
+
+
